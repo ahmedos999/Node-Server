@@ -1,9 +1,10 @@
-const http = require("http")
+const http = require("http");
 
-http.createServer(function(req,res){
-	res.write("on my way to become a full stack engineer");
-	res.end()
+http
+  .createServer(function (req, res) {
+    res.write("on my way to become a full stack engineer in euw");
+    res.end();
+  })
+  .listen(3000);
 
-}).listen(3000)
-
-console.log("server listening at port 3000")
+console.log("server listening at port 3000");
