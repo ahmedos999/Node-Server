@@ -2,7 +2,7 @@ const http = require("http");
 
 http
   .createServer(function (req, res) {
-    res.write("on my way to become a full stack engineer in euw");
+    res.write("Best ADC EUW");
     res.end();
   })
   .listen(3000);
